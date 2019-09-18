@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+Using namespace std;
+Int main()
+{
+	Float x1, x2, y1, y2, p, s;
+	cout << "Enter first cord" << endl;
+	cin >> x1 >> y1;
+	cout << "Enter second cord" << endl;
+	cin >> x2 >> y2;
+	p = (abs(y2 - y1) + abs(x2 - x1)) * 2;
+	s = abs(y2 - y1) * abs(x2 - x1);
+	cout << "P = " << p << endl << "S = " << s;
+}
